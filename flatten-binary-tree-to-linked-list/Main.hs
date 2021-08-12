@@ -1,3 +1,29 @@
+-- Problem:
+
+-- Given a binary tree, flatten it to a linked list in-place.
+
+-- Examples:
+
+-- Input:
+--     1
+--    / \
+--   2   5
+--  / \   \
+-- 3   4   6
+
+-- Output:
+-- 1
+--  \
+--   2
+--    \
+--     3
+--      \
+--       4
+--        \
+--         5
+--          \
+--           6
+
 data Tree = Node Tree Int Tree | Empty deriving (Show, Eq)
 
 --       1
